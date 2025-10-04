@@ -1,16 +1,44 @@
-# Spring Boot Authentication Service
+# 🔐 Enterprise Spring Boot Authentication Service
 
-A comprehensive, enterprise-grade JWT-based authentication service built with Spring Boot 3.x and Java 17. This RESTful API provides secure user authentication, authorization, and user management capabilities with modern security practices.
+[![CI/CD Pipeline](https://github.com/kuldeepsinghpoc-beep/authentication-service/actions/workflows/deploy.yml/badge.svg)](https://github.com/kuldeepsinghpoc-beep/authentication-service/actions/workflows/deploy.yml)
+[![Java](https://img.shields.io/badge/Java-17-orange.svg)](https://www.java.com)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.1.5-brightgreen.svg)](https://spring.io/projects/spring-boot)
+[![AWS ECS](https://img.shields.io/badge/AWS-ECS-orange.svg)](https://aws.amazon.com/ecs/)
+[![Docker](https://img.shields.io/badge/Docker-Enabled-blue.svg)](https://www.docker.com/)
+
+A production-ready, enterprise-grade JWT authentication service built with Spring Boot 3, featuring comprehensive security, complete DevOps pipeline, and automated AWS ECS deployment.
 
 ## 🚀 Features
 
-- **JWT Authentication**: Stateless authentication using JSON Web Tokens
-- **User Management**: Complete user registration, login, and profile management
-- **Security**: BCrypt password hashing, JWT token validation, and refresh mechanisms
-- **Database Support**: H2 (development) and MySQL (production) compatibility
-- **API Documentation**: Interactive Swagger/OpenAPI 3.0 documentation
-- **Comprehensive Testing**: Unit, integration, and API testing with detailed coverage
-- **Production Ready**: Security configurations, error handling, and monitoring endpoints
+### 🔒 **Security & Authentication**
+- JWT-based stateless authentication
+- BCrypt password encoding
+- Role-based access control (RBAC)
+- Comprehensive security headers
+- CORS configuration
+- Rate limiting and request validation
+
+### 🏗️ **Enterprise Architecture**
+- RESTful API design
+- Comprehensive error handling
+- Input validation with custom validators
+- Structured logging
+- Health checks and monitoring endpoints
+- OpenAPI 3 documentation with Swagger UI
+
+### ⚡ **Performance & Scalability**
+- Optimized for containerized environments
+- Auto-scaling configuration
+- Connection pooling
+- JVM tuning for containers
+
+### 🛠️ **DevOps & Deployment**
+- Complete CI/CD pipeline with GitHub Actions
+- Docker containerization with multi-stage builds
+- AWS ECS deployment with Fargate
+- Infrastructure as Code with Terraform
+- Automated testing and security scanning
+- Blue-green deployment support
 
 ## 🛠 Technology Stack
 
