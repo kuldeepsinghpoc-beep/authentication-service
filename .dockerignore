@@ -1,0 +1,42 @@
+# Ignore build artifacts
+target/
+*.jar
+*.war
+*.ear
+
+# Ignore IDE files
+.idea/
+.vscode/
+.classpath
+.project
+.settings/
+*.iml
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Git
+.git/
+.gitignore
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore Maven wrapper (optional)
+.mvn/
+mvnw
+mvnw.cmd
+
+# Ignore test files
+src/test/
+test-*/
+*.ps1
+*.bat
+*.sh
+postman-collection.json
+
+# Ignore documentation
+*.md
+LICENSE
